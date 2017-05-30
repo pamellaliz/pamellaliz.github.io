@@ -3,5 +3,5 @@ Blog de receitas
 
 ## Fontes usadas no Projeto Gráfico:
 - Amatic_SC
-- Crafty_Girls
+- Josefin_Sans
 - Sacramento
