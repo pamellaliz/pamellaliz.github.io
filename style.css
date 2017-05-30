@@ -1,0 +1,43 @@
+* {
+	font-family: 'Amatic SC'; cursive;
+	color: #4a4a4a;
+}
+
+.menu {
+	font-size: 36px;
+	font-weight: normal;
+
+}
+
+.menu ul {list-style: none;}
+
+.menu a {
+	text-decoration: none;
+}
+
+.menu .active {
+	font-size: 36px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.content {
+	box-sizing: border-box;
+	width: 716px;
+	margin: 0 auto
+}
+
+.recepies {
+
+}
+
+.post {
+	font-size: 40px;
+	font-weight: bold;
+
+}
+
+.post img {
+	width: 716px;
+	height: 742px;
+}
