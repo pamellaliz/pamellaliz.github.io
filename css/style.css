@@ -20,12 +20,24 @@ a:hover {
 	background-color: #85BB50;
 }
 
+/******************************************************************************/
+/* .menu */
+/******************************************************************************/
 .menu a {
+	display: block;
+	padding: 10px;
+	font-family: 'Amatic SC'; cursive;
+	font-size: 1.8em;
+	font-weight: normal;
+	text-align: center;
+	color: #4a4a4a;
 }
 
+.menu a:hover,
 .menu .active {
 	font-weight: bold;
 	text-decoration: underline;
+	background-color: rgba(74,74,74, 0.1);
 }
 
 .content {
