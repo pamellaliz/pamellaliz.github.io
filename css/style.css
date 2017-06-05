@@ -88,15 +88,15 @@ h1 {
 
 .recipes .post:after {
 	position: absolute;
-	top: calc(100% - 8px);
+	top: calc(100% - 5px);
 	left: 50%;
-	margin-left: -8px;
+	margin-left: -5px;
 	content: " ";
 	display: block;
-	width: 16px;
-	height: 16px;
+	width: 10px;
+	height: 10px;
 	border: 1px solid #979797;
-	border-radius: 100%;
+	transform: rotate(45deg);
 	background-color: #fff;
 }
 
@@ -107,7 +107,7 @@ h1 {
 
 .recipes .post:last-child:after {display: none;}
 
-.recipes .post h2 {margin-bottom: 20px;}
+.recipes .post h2 {margin-bottom: 10px;}
 .recipes .post h2 a {color: #4a4a4a;}
 
 .recipes .post h2 a:hover {
