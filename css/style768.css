@@ -1,0 +1,81 @@
+@media (min-width: 769px) {
+
+	/***************************************************************/
+	/* h1 */
+	/***************************************************************/
+	h1 {
+		padding-top: 60px;
+		font-size: 6em;
+	}
+
+	/***************************************************************/
+	/* .mainMenu */
+	/***************************************************************/
+	.mainMenu .menu {
+		padding: 10px 0;
+		border: 1px solid #979797;
+		border-right-width: 0;
+		border-left-width: 0;
+		margin-bottom: 40px;
+	}
+
+	.mainMenu .menu li {float: left;}
+
+	.mainMenu .menu a {
+		font-size: 2em;
+		padding: 5px 20px;
+	}
+
+	/***************************************************************/
+	/* .recipes */
+	/***************************************************************/
+	.recipes {
+		float: left;
+		width: calc(100% - 300px - 40px);
+		margin-right: 40px;
+	}
+
+	.recipes .post h2 {font-size: 3em;}
+	.recipes .post .cta {text-align: right;}
+
+	/***************************************************************/
+	/* .about */
+	/***************************************************************/
+	.about {
+		float: left;
+		width: 300px;
+	}
+
+	.about h2 {font-size: 3em;}
+
+	/***************************************************************/
+	/* .postheader */
+	/***************************************************************/
+	.postheader h2 {
+		font-size: 3em;
+	}
+
+	.postheader .postInfo {font-size: 1.6em;}
+
+	/***************************************************************/
+	/* .tools */
+	/***************************************************************/
+	.tools {margin-bottom: 40px;}
+
+	.tools .ingredients,
+	.tools .steps {float: left;}
+
+	.tools h3 {font-size: 2.5em;}
+
+	.tools .ingredients {
+		float: left;
+		width: 400px;
+		margin-right: 20px;
+	}
+
+	.tools .steps {
+		width: calc(100% - 400px - 20px);
+	}
+
+/* End of @media > 769px*/
+}
