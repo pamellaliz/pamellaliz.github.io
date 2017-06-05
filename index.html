@@ -60,59 +60,72 @@
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style768.css"/>
 
 	<!-- Web Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Sans|Sacramento" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Josefin+Sans:300,300i,400,400i,700,700i|Sacramento" rel="stylesheet">
 
 </head>
 
 <body>
 	<main>
-		<nav class="menu">
-			<ul>
-				<li><a class="active" href="#">Home</a></li>
-				<li><a href="#">Receitas</a></li>
-				<li><a href="#">Sobre</a></li>
-			</ul>
-		</nav><!-- end .menu -->
-
 		<h1>Receitas da Pam</h1>
-
-		<div class="content">
-			<ul class="recipes">
-				<li class="post">
-					<h2>Bolo de Chocolate</h2>
-					<img src="img/bolo-caneca-chocolate.jpg" alt="Bolo de Chocolate na Caneca" />
+		<nav class="mainMenu">
+			<div class="wrapper">
+				<ul class="menu cf">
+					<li><a class="active" href="#">Home</a></li>
+					<li><a href="#">Receitas</a></li>
+					<li><a href="#">Sobre</a></li>
+				</ul><!-- End .menu -->
+			</div><!-- End .wrapper -->
+		</nav><!-- end .mainMenu -->
+		<div class="content cf">
+			<div class="wrapper cf">
+				<ul class="recipes">
+					<li class="post">
+						<h2><a href="#">Bolo de Chocolate</a></h2>
+						<div class="imgPreview" style="background-image: url('img/bolo-caneca-chocolate.jpg')">
+							&nbsp;
+						</div><!-- End .imgPreview -->
+						<div class="cta">
+							<a href="#">Ver Receita</a>
+						</div><!-- End .cta -->
+					</li>
+					<li class="post">
+						<h2><a href="#">Bolo de Chocolate</a></h2>
+						<div class="imgPreview" style="background-image: url('img/bolo-caneca-chocolate.jpg')">
+							&nbsp;
+						</div><!-- End .imgPreview -->
+						<div class="cta">
+							<a href="#">Ver Receita</a>
+						</div><!-- End .cta -->
+					</li>
+					<li class="post">
+						<h2><a href="#">Bolo de Chocolate</a></h2>
+						<div class="imgPreview" style="background-image: url('img/bolo-caneca-chocolate.jpg')">
+							&nbsp;
+						</div><!-- End .imgPreview -->
+						<div class="cta">
+							<a href="#">Ver Receita</a>
+						</div><!-- End .cta -->
+					</li>
+				</ul><!-- end .recipes -->
+				<div class="about">
+					<h2>Quem Cozinha?</h2>
+					<div class="aboutContent">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non <a href="#">proident</a>, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div><!-- .aboutContent -->
 					<div class="cta">
-						<a href="#">Ver Receita</a>
+						<a href="#">Leia Mais</a>
 					</div><!-- End .cta -->
-				</li>
-				<li class="post">
-					<h2>Bolo de Chocolate</h2>
-					<img src="img/bolo-caneca-chocolate.jpg" alt="Bolo de Chocolate na Caneca" />
-					<div class="cta">
-						<a href="#">Ver Receita</a>
-					</div><!-- End .cta -->
-				</li>
-				<li class="post">
-					<h2>Bolo de Chocolate</h2>
-					<img src="img/bolo-caneca-chocolate.jpg" alt="Bolo de Chocolate na Caneca" />
-					<div class="cta">
-						<a href="#">Ver Receita</a>
-					</div><!-- End .cta -->
-				</li>
-			</ul><!-- end .recipes -->
-			<div class="about">
-				<h2>Quem Cozinha</h2>
-				<div class="aboutContent">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non <a href="#">proident</a>, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div><!-- .aboutContent -->
-				<a href="#">Leia Mais</a>
-			</div><!-- end .about -->
+				</div><!-- end .about -->
+			</div><!-- End .wrapper -->
 		</div><!-- end .content -->
 
-		<footer>
-			<p>Made with LOVE and SUGAR. | by Pamella A. Liz</p>
-		</footer>
+		<div class="wrapper">
+			<footer class="mainFooter">
+				<p>Made with <strong>love</strong> and <strong>sugar</strong>. | by <a href="#">Pamella A. Liz</a>.</p>
+			</footer><!-- End .mainFooter -->
+		</div><!-- End .wrapper -->
 	</main>
 </body>
