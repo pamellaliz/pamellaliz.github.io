@@ -3,6 +3,7 @@
 /******************************************************************************/
 body {
 	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 200;
 	font-size: 10pt;
 	color: #4a4a4a;
 }
@@ -20,24 +21,12 @@ a:hover {
 	background-color: #85BB50;
 }
 
-/******************************************************************************/
-/* .menu */
-/******************************************************************************/
-.menu a {
-	display: block;
-	padding: 10px;
-	font-family: 'Amatic SC'; cursive;
-	font-size: 1.8em;
-	font-weight: normal;
-	text-align: center;
-	color: #4a4a4a;
-}
+img {max-width: 100%;}
 
-.menu a:hover {background-color: rgba(74,74,74, 0.1);}
-
-.menu .active {
-	font-weight: bold;
-	text-decoration: underline;
+.wrapper {
+	max-width: 1000px;
+	padding: 0 20px;
+	margin: 0 auto;
 }
 
 /******************************************************************************/
@@ -53,35 +42,89 @@ h1 {
 }
 
 /******************************************************************************/
+/* .menu */
+/******************************************************************************/
+.mainMenu .menu {
+	margin-bottom: 30px;
+}
+
+.mainMenu .menu a {
+	display: block;
+	padding: 10px;
+	font-family: 'Amatic SC'; cursive;
+	font-size: 1.8em;
+	font-weight: normal;
+	text-align: center;
+	color: #4a4a4a;
+}
+
+.mainMenu .menu a:hover {background-color: rgba(74,74,74, 0.1);}
+
+.mainMenu .menu .active {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+/******************************************************************************/
 /* .content */
 /******************************************************************************/
-.content {
-	margin: 0 20px;
+.content h2 {
+	font-family: 'Amatic SC'; cursive;
+	font-size: 2em;
 }
 
 /******************************************************************************/
 /* .recipes */
 /******************************************************************************/
+.recipes {margin-bottom: 40px;}
+
 .recipes .post {
+	position: relative;
 	list-style: none;
+	border-bottom: 1px solid #979797;
 	margin-bottom: 35px;
 }
 
-.recipes .post h2 {
-	font-family: 'Amatic SC'; cursive;
-	font-size: 2em;
-	color: #4a4a4a;
-	margin-bottom: 15px;
+.recipes .post:after {
+	position: absolute;
+	top: calc(100% - 8px);
+	left: 50%;
+	margin-left: -8px;
+	content: " ";
+	display: block;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #979797;
+	border-radius: 100%;
+	background-color: #fff;
 }
 
-.recipes .post img {
-	width: 100%;
-	margin-bottom: 10px;
+.recipes .post:last-child {
+	border-bottom: 0;
+	margin: 0;
+}
+
+.recipes .post:last-child:after {display: none;}
+
+.recipes .post h2 {margin-bottom: 20px;}
+.recipes .post h2 a {color: #4a4a4a;}
+
+.recipes .post h2 a:hover {
+	color: #85BB50;
+	background-color: transparent;
+}
+
+.recipes .post .imgPreview {
+	height: 250px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-bottom: 20px;
 }
 
 .post .cta {
-	padding-bottom: 15px;
-	border-bottom: 1px solid #979797;
+	padding-bottom: 25px;
 	text-align: center;
 }
 
@@ -100,4 +143,117 @@ h1 {
 .post .cta a:hover {
 	top: 1px;
 	box-shadow: 0 2px 2px rgba(74,74,74, 0)
+}
+
+/******************************************************************************/
+/* .about */
+/******************************************************************************/
+.about {margin-bottom: 40px;}
+.about h2 {margin-bottom: 20px;}
+
+.aboutContent {
+	font-size: 1.4em;
+	line-height: 1.2em;
+	margin-bottom: 20px;
+}
+
+.aboutContent p {margin-bottom: 10px;}
+.aboutContent p:last-child {margin-bottom: 0;}
+
+.about .cta {text-align: center;}
+
+.about .cta a {
+	font-size: 1.6em;
+	font-family: 'Amatic SC'; cursive;
+	text-transform: uppercase;
+}
+
+/******************************************************************************/
+/* .postheader */
+/******************************************************************************/
+.postheader {
+	margin-bottom: 20px;
+}
+
+.postheader h2 {margin-bottom: 5px;}
+
+.postheader .postInfo {
+	font-family: 'Amatic SC'; cursive;
+	font-size: 1.4em;
+	font-weight: 200;
+}
+
+/******************************************************************************/
+/* .postImage */
+/******************************************************************************/
+.postImage {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.postImage img {display: block;}
+
+/******************************************************************************/
+/* .postText */
+/******************************************************************************/
+.postText {
+	margin-bottom: 30px;
+}
+
+.postText p {
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+/******************************************************************************/
+/* .tools */
+/******************************************************************************/
+.tools h3 {
+	font-family: 'Amatic SC'; cursive;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.tools ul,
+.tools ol {padding-left: 20px;}
+
+.tools li {
+	font-size: 1.4em;
+	line-height: 1.2em;
+	margin-bottom: 10px;
+}
+
+/******************************************************************************/
+/* .box */
+/******************************************************************************/
+.box {
+	padding: 20px;
+	border: 1px solid #979797;
+	border-radius: 3px;
+	background-color: rgba(216, 216, 216, 0.2);
+	margin-bottom: 30px;
+}
+
+/******************************************************************************/
+/* .mainFooter */
+/******************************************************************************/
+.mainFooter {
+	padding: 30px 0;
+	border: 1px solid #979797;
+	border-right-width: 0;
+	border-left-width: 0;
+	margin-bottom: 30px;
+}
+
+.mainFooter p {
+	font-size: 1.3em;
+	font-family: 'Amatic SC'; cursive;
+	font-weight: 200;
+	text-align: center;
+}
+
+.mainFooter p strong {
+	font-size: 1.4em;
+	text-transform: uppercase;
+	font-weight: bold;
 }
