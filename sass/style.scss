@@ -10,7 +10,7 @@ body {
 
 a {
 	color: #85BB50;
-	font-weight: bold;
+	font-weight: 400;
 	padding: 2px 5px;
 	border-radius: 3px;
 }
@@ -27,6 +27,25 @@ img {max-width: 100%;}
 	max-width: 1000px;
 	padding: 0 20px;
 	margin: 0 auto;
+}
+
+::selection{
+	color:#fff;
+	background-color:#85BB50
+}
+
+/******************************************************************************/
+/* Utility calsses */
+/******************************************************************************/
+.hide {display: none;}
+
+.vhide {
+	position: fixed;
+	top: -20px;
+	left: -20px;
+	width: 0;
+	height: 0;
+	overflow: hidden;
 }
 
 /******************************************************************************/
@@ -51,7 +70,7 @@ h1 {
 .mainMenu .menu a {
 	display: block;
 	padding: 10px;
-	font-family: 'Amatic SC'; cursive;
+	font-family: 'Amatic SC', cursive;
 	font-size: 1.8em;
 	font-weight: normal;
 	text-align: center;
@@ -70,7 +89,7 @@ h1 {
 /* .content */
 /******************************************************************************/
 .content h2 {
-	font-family: 'Amatic SC'; cursive;
+	font-family: 'Amatic SC', cursive;
 	font-size: 2em;
 }
 
@@ -108,7 +127,11 @@ h1 {
 .recipes .post:last-child:after {display: none;}
 
 .recipes .post h2 {margin-bottom: 10px;}
-.recipes .post h2 a {color: #4a4a4a;}
+
+.recipes .post h2 a {
+	font-weight: bold;
+	color: #4a4a4a;
+}
 
 .recipes .post h2 a:hover {
 	color: #85BB50;
@@ -132,7 +155,7 @@ h1 {
 	position: relative;
 	display: inline-block;
 	padding: 5px 10px;
-	font-family: 'Amatic SC'; cursive;
+	font-family: 'Amatic SC', cursive;
 	font-size: 1.5em;
 	color: #4a4a4a;
 	border: 1px solid rgba(184,233,134, 0.5);
@@ -164,7 +187,7 @@ h1 {
 
 .about .cta a {
 	font-size: 1.6em;
-	font-family: 'Amatic SC'; cursive;
+	font-family: 'Amatic SC', cursive;
 	text-transform: uppercase;
 }
 
@@ -178,7 +201,7 @@ h1 {
 .postheader h2 {margin-bottom: 5px;}
 
 .postheader .postInfo {
-	font-family: 'Amatic SC'; cursive;
+	font-family: 'Amatic SC', cursive;
 	font-size: 1.4em;
 	font-weight: 200;
 }
@@ -209,7 +232,7 @@ h1 {
 /* .tools */
 /******************************************************************************/
 .tools h3 {
-	font-family: 'Amatic SC'; cursive;
+	font-family: 'Amatic SC', cursive;
 	font-size: 2em;
 	margin-bottom: 20px;
 }
@@ -247,7 +270,7 @@ h1 {
 
 .mainFooter p {
 	font-size: 1.3em;
-	font-family: 'Amatic SC'; cursive;
+	font-family: 'Amatic SC', cursive;
 	font-weight: 200;
 	text-align: center;
 }
