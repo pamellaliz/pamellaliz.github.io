@@ -21,9 +21,7 @@
 		text-align: center;
 	}
 
-	.mainMenu .menu li {
-		display: inline-block;
-	}
+	.mainMenu .menu li {display: inline-block;}
 
 	.mainMenu .menu a {
 		font-size: 2em;
@@ -55,10 +53,7 @@
 	/***************************************************************/
 	/* .postheader */
 	/***************************************************************/
-	.postheader h2 {
-		font-size: 3em;
-	}
-
+	.postheader h2 {font-size: 3em;}
 	.postheader .postInfo {font-size: 1.6em;}
 
 	/***************************************************************/
@@ -77,9 +72,7 @@
 		margin-right: 20px;
 	}
 
-	.tools .steps {
-		width: calc(100% - 400px - 20px);
-	}
+	.tools .steps {width: calc(100% - 400px - 20px);}
 
 /* End of @media > 769px*/
 }
