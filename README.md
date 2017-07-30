@@ -1,10 +1,5 @@
 # Receitinhas
-Blog de receitas
-
-## Fonts 
-- Amatic_SC
-- Josefin_Sans
-- Sacramento
+Culinary recipes blog
 
 ## What you need to run the project:
 - [NodeJS](nodejs.org);
@@ -13,19 +8,23 @@ Blog de receitas
 - [Gulp](http://gulpjs.com);
 
 ## Tools and responsabilities:
-- NPM to manage development dependencies;
+- npm to manage development dependencies;
 - Bower to manage website dependencies;
 - Gulp as a task manager;
 - [Sass](http://sass-lang.com) to improve CSS capabilities;
 - [Autoprefixer](https://autoprefixer.github.io) to garantee better support for old browser;
 
-### Install development dependencies:
-`npm install`
+## Running the project for the first time 
+1. Go to project folder; 
+2. Install development dependencies: `npm install`;
+3. Install website dependencies: `bower install`;
+4. Run development envioriment: `gulp`;
 
-### Install website dependencies:
-`bower install`
+Have fun :)
 
-### Run development envioriment:
-`gulp`
+---
 
-Now you can edit files in `sass/` to see modifications.
+## Web fonts used 
+- [Amatic_SC](https://fonts.google.com/specimen/Amatic+SC);
+- [Josefin_Sans](https://fonts.google.com/specimen/Josefin+Sans);
+- [Sacramento](https://fonts.google.com/specimen/Sacramento);
