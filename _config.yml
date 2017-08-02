@@ -1,0 +1,2 @@
+baseurl: /receitinhas
+exclude: ["README.md", "LICENSE", "node_modules", "sass/", "fonts/"]
