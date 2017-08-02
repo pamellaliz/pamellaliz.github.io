@@ -1,0 +1,18 @@
+<nav class="mainMenu">
+	<div class="wrapper">
+		<ul class="menu cf">
+			<li><a
+				class="{% if page.url == '/' %}active{% endif %}"
+				href="{{site.baseurl}}/index.html"
+			>Home</a></li>
+			<li><a 
+				class="{% if page.url == '/about.html' %}active{% endif %}" 
+				href="{{site.baseurl}}/about.html"
+			>Sobre</a></li>
+			<li><a 
+				class="{% if page.url == '/post.html' %}active{% endif %}" 
+				href="{{site.baseurl}}/post.html"
+			>Post</a></li>
+		</ul><!-- End .menu -->
+	</div><!-- End .wrapper -->
+</nav><!-- end .mainMenu -->

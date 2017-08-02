@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Receitas da Pam</title>
+
+	<!--[if lte IE 8]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+	<![endif]-->
+
+	<!-- Standart Favicon -->
+	<link rel="icon" type="image/png" href="{{site.baseurl}}/img/favicon@2x.png" sizes="64x64" />
+
+	<!-- Metas -->
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+	<meta name="rating" content="general" />
+	<meta name="Copyright" content="" />
+	<meta name="dcterms.rights" content="" />
+	<meta name="dcterms.dateCopyrighted" content="￼" />
+	<meta name="url" content="">
+	<meta name="googlebot" content="index,follow">
+	<meta name="google-site-verification" content="" />
+
+	<!-- Meta related to language -->
+	<meta name="keywords" content="your,keywords,here,comma,separated,no,spaces">
+	<meta name="description" content="150 chars">
+	<meta name="subject" content="your website's subject">
+
+	<!-- OG Protocol -->
+	<!-- Open Graph: http://ogp.me/ -->
+	<!-- Facebook: https://developers.facebook.com/docs/sharing/webmasters#markup -->
+	<meta property="og:type" content="website"/>
+	<meta property="og:image" content=""/>
+	<meta property="og:locale" content="en_US">
+	<meta property="article:author" content="">
+
+	<!-- OG Protocol related to language -->
+	<meta property="og:site_name" content=""/>
+	<meta property="og:title" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:description" content=""/>
+
+	<!-- Twitter Protocol -->
+	<!-- More info: https://dev.twitter.com/cards/getting-started -->
+	<!-- Validate: https://dev.twitter.com/docs/cards/validation/validator -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@site_account">
+	<meta name="twitter:creator" content="@individual_account">
+	<meta name="twitter:url" content="https://example.com/page.html">
+	<meta name="twitter:image" content="https://example.com/image.jpg">
+
+	<!-- Twitter Protocol related to language -->
+	<meta name="twitter:title" content="Content Title">
+	<meta name="twitter:description" content="Content description less than 200 characters">
+
+	<!-- Content related links -->
+	<link rel="canonical" href="" />
+	<link rel="author" href="{{site.baseurl}}/humans.txt">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="{{site.baseurl}}/bower_components/acResetCSS/acReset.css">
+	<link rel="stylesheet" href="{{site.baseurl}}/css/style.css"/>
+	<link rel="stylesheet" href="{{site.baseurl}}/css/style768.css"/>
+	<link rel="stylesheet" href="{{site.baseurl}}/bower_components/aos/dist/aos.css" />
+	<link rel="stylesheet" href="{{site.baseurl}}/bower_components/outdated-browser/outdatedbrowser/outdatedbrowser.css" />
+
+	<!-- Web Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Josefin+Sans:300,300i,400,400i,700,700i|Sacramento" rel="stylesheet">
+
+</head>
+
+<body>
+	<main>
+		<h1>Receitas da Pam</h1>
+		{% include mainMenu.html %}
+
+		<div class="content cf">
+			<div class="wrapper cf">
+				{{content}}
+			</div><!-- End .wrapper -->
+		</div><!-- end .content -->
+
+		<div class="wrapper">
+			<footer class="mainFooter">
+				<p>Made with <strong>love</strong> and <strong>sugar</strong>. | by <a href="#">Pamella A. Liz</a>.</p>
+			</footer><!-- End .mainFooter -->
+		</div><!-- End .wrapper -->
+	</main>
+
+	<!-- Scripts! :) -->
+	<script src="{{site.baseurl}}/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="{{site.baseurl}}/bower_components/outdated-browser/outdatedbrowser/outdatedbrowser.min.js"></script>
+	<script src="{{site.baseurl}}/bower_components/aos/dist/aos.js"></script>
+	<script src="{{site.baseurl}}/js/app.js"></script>
+</body>
