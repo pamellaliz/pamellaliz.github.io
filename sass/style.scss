@@ -81,7 +81,7 @@ h1 {
 
 .mainMenu .menu .active {
 	font-weight: bold;
-	text-decoration: underline;
+	text-decoration: \]underline;
 }
 
 /******************************************************************************/
@@ -90,6 +90,12 @@ h1 {
 .content h2 {
 	font-family: 'Amatic SC', cursive;
 	font-size: 2em;
+}
+
+.content li {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  list-style-position: inside;
 }
 
 /******************************************************************************/
@@ -138,12 +144,15 @@ h1 {
 }
 
 .recipes .post .imgPreview {
+	display: block;
 	height: 250px;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
 	margin-bottom: 20px;
 }
+
+.recipes .post .imgPreview:hover {border-color: rgba(#85bb50, 1)}
 
 .post .cta {
 	padding-bottom: 25px;
@@ -213,13 +222,13 @@ h1 {
 .postImage img {display: block;}
 
 /******************************************************************************/
-/* .postText */
+/* .postIntro */
 /******************************************************************************/
-.postText {margin-bottom: 30px;}
+.postIntro {margin-bottom: 30px;}
 
-.postText p {
-	font-size: 1.4em;
-	line-height: 1.4em;
+.postIntro p {
+  font-size: 1.6em;
+  line-height: 1.4em;
 }
 
 /******************************************************************************/
