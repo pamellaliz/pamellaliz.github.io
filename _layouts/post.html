@@ -5,19 +5,19 @@ layout: default
 <section class="content cf">
 	<div class="wrapper">
 		<header class="postheader">
-			<h2>Exemplo de post</h2>
+			<h2>{{page.tittle}}</h2>
 			<div class="postInfo">
-				<time datetime="2017-03-10">10 de Março de 2017</time>
-				<strong> | por Pamella</strong>
+				<time datetime="{{page.date}}">{{page.myDate}}</time>
+				<strong> | por {{page.author}}</strong>
 			</div><!-- end .postInfo -->
 		</header><!-- End .postHeader -->
 		<div class="postImage">
-			<img src="img/bolo-caneca-chocolate.jpg" alt="Bolo de Chocolate na Caneca" />
+			<img src="{{site.url}}/img/{{page.coverImage}}" alt="{{page.tittle}}" />
 		</div><!-- end .postImage -->
 
-		<div class="postText">
-			<p>Bolo de chocolate é algo que me acompanha desde a infância. Sempre comi um que minha tia fazia com cobertura de chocolate bem sequinha, craquelenta e açucarada. Mas não é sempre que eu quero bater um bolo, até porque eu acabo comendo mais do que deveria. Então essa, apesar de ser uma receita de microondas - sim, fui bem receosa com essa receita de início - é ótima pra quando se tem aquela vontade de comer um bolo do tipo agora! Essa receita é adaptada da <a href="#">grande amiga do João</a>.</p>
-		</div><!-- end .postText -->
+		<div class="postIntro">
+			{{content}}
+		</div><!-- end .postIntro -->
 
 		<div class="tools cf">
 			<div class="box ingredients">
