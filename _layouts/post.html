@@ -23,23 +23,18 @@ layout: default
 			<div class="box ingredients">
 				<h3>Ingredientes</h3>
 				<ul>
-					<li>1 ovo</li>
-					<li>3 colheres de sopa de manteiga derretida</li>
-					<li>4 colheres de sopa de açúcar</li>
-					<li>4 colheres de sopa de leite (eu uso leite de amêndoas)</li>
-					<li>4 colheres de sopa de chocolate amargo derretido (eu uso o 70% de cacau)</li>
-					<li>3 colheres de sopa de farinha de trigo</li>
-					<li>1/2 colher de chá de fermento em pó</li>
+					{% for item in page.ingredients %}
+						<li>{{item}}</li>
+					{% endfor %}
 				</ul>
 			</div><!-- end .ingredients -->
 
 			<div class="steps">
 				<h3>Modo de Preparo</h3>
 				<ol>
-					<li>Misture a manteiga derretida com o leite e o ovo. Misture com um fouet ou garfo.</li>
-					<li>Acrescente o chocolate derretido, o açúcar, a farinha e o fermento. Misture até ficar homogêneo.</li>
-					<li>Você pode colocar em uma caneca bem grande (tipo aquelas de tomar sopa), ou dividir em duas regulares de café, ou outras menores. Mas não deixe passar de 2/3 da capacidade!</li>
-					<li>Leve ao microondas por 3 minutos em potência máxima. Coloque um prato em baixo para caso transborde. Porque muito trabalho, não queremos.</li>
+					{% for item in page.steps %}
+						<li>{{item}}</li>
+					{% endfor %}
 				</ol>
 			</div><!-- end .steps -->
 		</div><!-- end .tools -->
