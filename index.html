@@ -1,20 +1,23 @@
 ---
 layout: default
 ---
-
-<ul class="recipes">
-	{% for article in site.posts limit:10 %}
-		<li class="post">
-			<h2><a href="{{article.url}}">{{article.tittle}}</a></h2>
-			<a
-				href="{{article.url}}"
-				class="imgPreview"
-				style="background-image: url('{{site.url}}/img/{{article.coverImage}}')"
-			>&nbsp;</a>
-			<div class="cta">
-				<a href="{{article.url}}">Ver Receita</a>
-			</div><!-- End .cta -->
-		</li>
-	{% endfor %}
-</ul><!-- end .recipes -->
-{% include miniBio.html %}
+<div class="content cf">
+	<div class="wrapper cf">
+		<ul class="recipes">
+			{% for article in site.posts limit:10 %}
+				<li class="post">
+					<h2><a href="{{article.url}}">{{article.tittle}}</a></h2>
+					<a
+						href="{{article.url}}"
+						class="imgPreview"
+						style="background-image: url('{{site.url}}/img/{{article.coverImage}}')"
+					>&nbsp;</a>
+					<div class="cta">
+						<a href="{{article.url}}">Ver Receita</a>
+					</div><!-- End .cta -->
+				</li>
+			{% endfor %}
+		</ul><!-- end .recipes -->
+		{% include miniBio.html %}
+	</div><!-- End .wrapper -->
+</div><!-- end .content -->
