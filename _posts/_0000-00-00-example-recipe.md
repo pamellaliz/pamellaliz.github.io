@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: recipe
 tittle: Post title
 coverImage: post-image.jpg
 myDate: June 05, 2017
