@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<section class="content recipe cf">
+	<div class="wrapper">
+		<header class="postheader">
+			<h2>{{page.tittle}}</h2>
+			<div class="postInfo">
+				<time datetime="{{page.date}}">{{page.myDate}}</time>
+				<strong> | por {{page.author}}</strong>
+			</div><!-- end .postInfo -->
+		</header><!-- End .postHeader -->
+		<div class="postImage">
+			<img src="{{site.url}}/img/{{page.coverImage}}" alt="{{page.tittle}}" />
+		</div><!-- end .postImage -->
+
+		<div class="postIntro">
+			{{content}}
+		</div><!-- end .postIntro -->
+
+		<div class="recipeContent cf">
+			<div class="box ingredients">
+				<h3>Ingredientes</h3>
+				<ul>
+					{% for item in page.ingredients %}
+						<li>{{item}}</li>
+					{% endfor %}
+				</ul>
+			</div><!-- end .ingredients -->
+
+			<div class="steps">
+				<h3>Modo de Preparo</h3>
+				<ol>
+					{% for item in page.steps %}
+						<li>{{item}}</li>
+					{% endfor %}
+				</ol>
+			</div><!-- end .steps -->
+		</div><!-- end .recipeContent -->
+	</div><!-- End .wrapper -->
+</section><!-- end .content.recipe -->

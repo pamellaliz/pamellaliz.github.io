@@ -93,9 +93,13 @@ h1 a:hover {
 ////////////////////////////////////////////////////////////////////////////////
 // .content
 ////////////////////////////////////////////////////////////////////////////////
-.content h2 {
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
 	font-family: 'Amatic SC', cursive;
-	font-size: 2em;
+	margin-bottom: 15px;
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -152,7 +156,7 @@ h1 a:hover {
 	margin-bottom: 20px;
 }
 
-.recipes .post .imgPreview:hover {border-color: rgba(#85bb50, 1)}
+.recipes .post .imgPreview  {background-color: transparent;}
 
 .post .cta {
 	padding-bottom: 25px;
@@ -238,28 +242,44 @@ h1 a:hover {
 }
 
 ////////////////////////////////////////////////////////////////////////////////
-// .postText
+// .postContent
 ////////////////////////////////////////////////////////////////////////////////
-.postText {margin-bottom: 20px;}
+.postContent {margin-bottom: 20px;}
 
-.postText p {
-  font-size: 1.4em;
+.postContent h2 {font-size: 2em;}
+.postContent h3 {font-size: 1.8em;}
+.postContent h4 {font-size: 1.6em;}
+.postContent h5 {font-size: 1.4em;}
+.postContent h6 {font-size: 1.2em;}
+
+.postContent p {
+  font-size: 1.5em;
   line-height: 1.4em;
+  margin-bottom: 20px;
+}
+
+.postContent ul,
+.postContent ol {margin-bottom: 20px;}
+
+.postContent li {
+	list-style-position: inside;
+	font-size: 1.5em;
+	line-height: 1.4em;
 }
 
 ////////////////////////////////////////////////////////////////////////////////
-// .tools
+// .recipeContent
 ////////////////////////////////////////////////////////////////////////////////
-.tools h3 {
+.recipeContent h3 {
 	font-family: 'Amatic SC', cursive;
 	font-size: 2em;
 	margin-bottom: 20px;
 }
 
-.tools ul,
-.tools ol {padding-left: 20px;}
+.recipeContent ul,
+.recipeContent ol {padding-left: 20px;}
 
-.tools li {
+.recipeContent li {
 	font-size: 1.4em;
 	line-height: 1.2em;
 	margin-bottom: 10px;

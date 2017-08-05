@@ -57,22 +57,22 @@
 	.postheader .postInfo {font-size: 1.6em;}
 
 	/////////////////////////////////////////////////////////////////
-	// .tools
+	// .recipeContent
 	/////////////////////////////////////////////////////////////////
-	.tools {margin-bottom: 40px;}
+	.recipeContent {margin-bottom: 40px;}
 
-	.tools .ingredients,
-	.tools .steps {float: left;}
+	.recipeContent .ingredients,
+	.recipeContent .steps {float: left;}
 
-	.tools h3 {font-size: 2.5em;}
+	.recipeContent h3 {font-size: 2.5em;}
 
-	.tools .ingredients {
+	.recipeContent .ingredients {
 		float: left;
 		width: 350px;
 		margin-right: 30px;
 	}
 
-	.tools .steps {width: calc(100% - 350px - 30px);}
+	.recipeContent .steps {width: calc(100% - 350px - 30px);}
 
 /* End of @media > 769px*/
 }
