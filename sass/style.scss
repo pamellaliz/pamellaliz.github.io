@@ -240,7 +240,10 @@ h1 a:hover {
 .postIntro p {
   font-size: 1.6em;
   line-height: 1.4em;
+  margin-bottom: 10px;
 }
+
+.postIntro p:last-child {margin-bottom: 0;}
 
 .postIntro li {
   font-size: 1.4em;
