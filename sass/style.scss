@@ -135,7 +135,10 @@ h1 a:hover {
 
 .recipes .post:last-child:after {display: none;}
 
-.recipes .post h2 {margin-bottom: 10px;}
+.recipes .post h2 {
+	font-size: 2em;
+	margin-bottom: 10px;
+}
 
 .recipes .post h2 a {
 	font-weight: bold;
@@ -207,7 +210,11 @@ h1 a:hover {
 // .postheader
 ////////////////////////////////////////////////////////////////////////////////
 .postheader {margin-bottom: 20px;}
-.postheader h2 {margin-bottom: 5px;}
+
+.postheader h2 {
+	font-size: 2em;
+	margin-bottom: 5px;
+}
 
 .postheader .postInfo {
 	font-family: 'Amatic SC', cursive;
