@@ -4,6 +4,18 @@ _site/
 
 fonts/
 node_modules/
-bower_components/
 
 *.map
+
+# Igonore majority of files from bower packages
+bower_components/*.*
+bower_components/*/*.*
+bower_components/*/LICENSE
+bower_components/*/*/*.*
+bower_components/*/*/*/*.*
+bower_components/*/*/*/*/*.*
+
+# Exclude distribution files from each project
+!bower_components/acResetCSS/acReset.css
+!bower_components/html5shiv/dist/html5shiv.min.js
+!bower_components/jquery/dist/jquery.min.js
