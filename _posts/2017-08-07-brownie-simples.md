@@ -18,7 +18,7 @@ ingredients:
 
 steps:  
 - Pré-aqueça o forno a 180 graus. Unte e enfarinhe ou coloque papel vegetal em uma forma de mais ou menos 25cm x 20cm (Não sei se isso existe. A minha tem 21cm x 18cm, e acho que poderia ser um pouquinho maior..)  
-- Derreta o chocolate meio amargo com a manteiga. Aí aqui vai depender do quão ninja você é em derreter chocolate: pode derreter direto em uma panela (fogo bem baixo) OU no banho maria (aquele que você coloca uma panela com um pouco de água no fogo e encaixa um bowl na panela e espera derreter) OU no microondas (de 30 em 30 segundos). Faça como achar melhor e se sentir mais seguro. Só cuida pra não queimar o chocolate pelamor!  
+- Derreta o chocolate meio amargo com a manteiga. Aí aqui vai depender do quão ninja você é em derreter chocolate, pode derreter direto em uma panela (fogo bem baixo) OU no banho maria (aquele que você coloca uma panela com um pouco de água no fogo e encaixa um bowl na panela e espera derreter) OU no microondas (de 30 em 30 segundos). Faça como achar melhor e se sentir mais seguro. Só cuida pra não queimar o chocolate pelamor!  
 - Transfira a mistura pra um bowl maior e espere esfriar um pouco.   
 - Acrescente o cacau em pó, misture.  
 - Adicione o açúcar e o sal, misture.  
