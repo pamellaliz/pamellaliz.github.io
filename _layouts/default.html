@@ -9,13 +9,13 @@
 	<![endif]-->
 
 	<!-- Standart Favicon -->
-	<link rel="icon" type="image/png" href="{{site.baseurl}}/img/favicon@2x.png" sizes="64x64" />
+	<link rel="icon" type="image/png" href="{{site.url}}/img/favicon@2x.png" sizes="64x64" />
 
 	<!-- Metas -->
 	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
 	<meta name="rating" content="general" />
-	<link rel="canonical" href="{{site.baseurl}}" />
-	<link rel="author" href="{{site.baseurl}}/humans.txt" />
+	<link rel="canonical" href="{{site.url}}" />
+	<link rel="author" href="{{site.url}}/humans.txt" />
 	<meta name="googlebot" content="index,follow" />
 	<meta name="google-site-verification" content="" />
 
@@ -49,17 +49,17 @@
 	<meta name="twitter:url" content="{{site.url}}{{page.url}}" />
 
 	{% if page.coverImage %}
-	<meta property="twitter:image:src" content="{{site.url }}/img/{{page.coverImage}}">
+	<meta property="twitter:image:src" content="{{site.url}}/img/{{page.coverImage}}">
 	{% else %}
 	<meta property="twitter:image:src" content="{{site.url}}/img/receitasdapam-logo.png}}">
 	{% endif %}
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="{{site.baseurl}}/bower_components/acResetCSS/acReset.css">
-	<link rel="stylesheet" href="{{site.baseurl}}/css/style.css"/>
-	<link rel="stylesheet" href="{{site.baseurl}}/css/style768.css"/>
-	<link rel="stylesheet" href="{{site.baseurl}}/bower_components/aos/dist/aos.css" />
-	<link rel="stylesheet" href="{{site.baseurl}}/bower_components/outdated-browser/outdatedbrowser/outdatedbrowser.css" />
+	<link rel="stylesheet" href="{{site.url}}/bower_components/acResetCSS/acReset.css">
+	<link rel="stylesheet" href="{{site.url}}/css/style.css"/>
+	<link rel="stylesheet" href="{{site.url}}/css/style768.css"/>
+	<link rel="stylesheet" href="{{site.url}}/bower_components/aos/dist/aos.css" />
+	<link rel="stylesheet" href="{{site.url}}/bower_components/outdated-browser/outdatedbrowser/outdatedbrowser.css" />
 
 	<!-- Web Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Josefin+Sans:300,300i,400,400i,700,700i|Sacramento" rel="stylesheet">
@@ -67,8 +67,9 @@
 </head>
 
 <body>
+	<div id="outdated"></div>
 	<main>
-		<h1><a href="{{site.baseurl}}/">Receitas da Pam</a></h1>
+		<h1><a href="{{site.url}}">Receitas da Pam</a></h1>
 		{% include mainMenu.html %}
 		{{content}}
 		<div class="wrapper">
@@ -79,8 +80,8 @@
 	</main>
 
 	<!-- Scripts! :) -->
-	<script src="{{site.baseurl}}/bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="{{site.baseurl}}/bower_components/outdated-browser/outdatedbrowser/outdatedbrowser.min.js"></script>
-	<script src="{{site.baseurl}}/bower_components/aos/dist/aos.js"></script>
-	<script src="{{site.baseurl}}/js/app.js"></script>
+	<script src="{{site.url}}/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="{{site.url}}/bower_components/outdated-browser/outdatedbrowser/outdatedbrowser.min.js"></script>
+	<script src="{{site.url}}/bower_components/aos/dist/aos.js"></script>
+	<script src="{{site.url}}/js/app.js"></script>
 </body>
