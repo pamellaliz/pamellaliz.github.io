@@ -8,8 +8,9 @@
 	},
 	"devDependencies": {
 		"gulp": "*",
+		"gulp-autoprefixer": "*",
+		"gulp-cssnano": "*",
 		"gulp-sass": "*",
-		"gulp-sourcemaps": "*",
-		"gulp-autoprefixer": "*"
+		"gulp-sourcemaps": "*"
 	}
 }

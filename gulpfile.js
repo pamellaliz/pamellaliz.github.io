@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var cssnano = require('gulp-cssnano');
 var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
 
@@ -16,8 +17,9 @@ gulp.task('sass', function () {
 	.src(input)
 	.pipe(sourcemaps.init())
 	.pipe(sass(sassOptions).on('error', sass.logError))
-	.pipe(sourcemaps.write())
 	.pipe(autoprefixer({ browsers: ['last 3 versions'] }))
+	.pipe(cssnano())
+	.pipe(sourcemaps.write('.'))
 	.pipe(gulp.dest(output))
 });//End task sass
 
