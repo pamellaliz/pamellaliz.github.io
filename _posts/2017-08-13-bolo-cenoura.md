@@ -2,7 +2,7 @@
 layout: recipe  
 tittle: Bolo de cenoura  
 coverImage: bolo-cenoura.jpg  
-myDate: 24 de Agosto de 2017  
+myDate: 13 de Agosto de 2017  
 author: Pamella Amorim Liz
 
 ingredients:
