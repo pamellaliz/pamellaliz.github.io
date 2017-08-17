@@ -1,3 +1,4 @@
 title: Receitas da Pam
 description: O site pessoal de receitas da Pamella Amorim Liz.
+future: false
 exclude: ["README.md", "LICENSE", "node_modules", "sass/", "fonts/"]
