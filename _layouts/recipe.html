@@ -7,7 +7,7 @@ layout: default
 		<header class="postheader">
 			<h2>{{page.tittle}}</h2>
 			<div class="postInfo">
-				<time datetime="{{page.date}}">{{page.myDate}}</time>
+				<time datetime="{{page.date}}">{{page.date | date_to_long_string}}</time>
 				<strong> | por {{page.author}}</strong>
 			</div><!-- end .postInfo -->
 		</header><!-- End .postHeader -->
