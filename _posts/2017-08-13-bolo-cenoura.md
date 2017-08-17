@@ -4,6 +4,8 @@ tittle: Bolo de cenoura
 coverImage: bolo-cenoura.jpg  
 myDate: 13 de Agosto de 2017  
 author: Pamella Amorim Liz
+published: true
+---
 
 ingredients:
 - 3 cenouras médias  

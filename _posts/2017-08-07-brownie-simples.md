@@ -4,6 +4,8 @@ tittle: O Famoso Brownie da Pam
 coverImage: brownie-simples.jpg  
 myDate: 07 de Agosto de 2017  
 author: Pamella Amorim Liz
+published: true
+---
 
 ingredients:  
 - 150g de chocolate meio amargo (uso um com 63% cacau)  
