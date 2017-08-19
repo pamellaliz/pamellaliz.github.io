@@ -14,7 +14,7 @@ ingredients:
 - 1 colher de sopa de cacau em pó sem açúcar  
 - ¼ colher de chá de sal  
 - 200g chocolate branco picado
- 
+
 
 steps:  
 - Pré-aqueça o forno a 180 graus. Unte e enfarinhe ou coloque papel vegetal em uma forma de mais ou menos 25cm x 20cm (Não sei se isso existe. A minha tem 21cm x 18cm, e acho que poderia ser um pouquinho maior..)  
@@ -25,10 +25,10 @@ steps:
 - Adicione os ovos, um a um, misturando a cada adição.  
 - Acrescente a farinha, mexendo apenas para incorporar.  
 - Adicione o chocolate branco picado e mexa delicadamente.  
-- Coloque a massa na forma e leve ao forno por aproximadamente 35 minutos. Esse, o palito não pode sair sequinho, tem que sair com algumas migalhas úmidas ainda. 
- 
+- Coloque a massa na forma e leve ao forno por aproximadamente 35 minutos. Esse, o palito não pode sair sequinho, tem que sair com algumas migalhas úmidas ainda.
+
 ---
 
-Eu nunca fui muito fã de brownie. Na verdade, não sou muito fã de bolos de chocolate em geral. Então, cada vez que eu ia em uma confeitaria a única coisa que eu encontrava era aquele brownie cheio de nozes e coberto com chocolate. Não conseguia comer metade do pedaço. 
+Eu nunca fui muito fã de brownie. Na verdade, não sou muito fã de bolos de chocolate em geral. Então, cada vez que eu ia em uma confeitaria e queria um brownir, o único que eu encontrava era aquele cheio de nozes e coberto com chocolate. Não conseguia comer metade do pedaço.
 
-Até conhecer uma receita há anos atrás em uma revista Capricho edição Dia dos Namorados (edição impressa, provavelmente há mais de 13 anos..). Eles sugeriam um brownie com chocolate meio amargo derretido e chocolate branco picado na massa. Maravilhoso. Rasguei a página da revista e guardei. Perdi, lógico. Anos depois, conheci a linda da Rita Lobo (vulgo amiga do João, meu padrasto) com o site Panelinha. Achei a mesmíssima [receita](http://www.panelinha.com.br/receita/Brownie). Usei e fui sucesso com ela por mais alguns anos. Até eu me mudar pra Amsterdam. Forno novo, açúcar diferente, brownie deu errado por vários meses. E então achei a receita de Brownie simples no site da [Patricia](http://technicolorkitchen.blogspot.nl/2017/01/brownies-super-simples-receita-facil.html). Misturei um pouco das duas é PÁ! Meu brownie super famoso aqui em Amsterdam!!
+Até conhecer uma receita há anos atrás em uma revista Capricho edição Dia dos Namorados (edição impressa, provavelmente há mais de 13 anos.. E aqui eu entreguei minha idade!). Eles sugeriam um brownie com chocolate meio amargo derretido e chocolate branco picado na massa. Maravilhoso. Rasguei a página da revista e guardei. Perdi, lógico. Anos depois, conheci a linda da Rita Lobo (vulgo amiga do João, meu padrasto) com o site Panelinha. Achei a mesmíssima [receita](http://www.panelinha.com.br/receita/Brownie). Usei e fui sucesso com ela por mais alguns anos. Até eu me mudar pra Amsterdam. Forno novo, açúcar diferente, brownie deu errado por vários meses. E então achei a receita de Brownie simples no site da [Patricia](http://technicolorkitchen.blogspot.nl/2017/01/brownies-super-simples-receita-facil.html). Misturei um pouco das duas é PÁ! Meu brownie super famoso aqui em Amsterdam!!
