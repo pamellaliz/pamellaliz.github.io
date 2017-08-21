@@ -3,6 +3,7 @@ layout: recipe
 tittle: Queijadinha e memórias do sítio  
 coverImage: queijadinha.jpg  
 author: Pamella Amorim Liz
+published: true
 
 ingredients:  
 - 1 lata de leite condensado  
