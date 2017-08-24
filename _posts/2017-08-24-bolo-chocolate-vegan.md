@@ -3,6 +3,7 @@ layout: recipe
 tittle: Muffins de chocolate para uma amiga vegana  
 coverImage: bolo-chocolate-vegan.jpg  
 author: Pamella Amorim Liz
+published: true
 
 ingredients:  
 - 1 e 1/2 xícara de farinha de trigo   
