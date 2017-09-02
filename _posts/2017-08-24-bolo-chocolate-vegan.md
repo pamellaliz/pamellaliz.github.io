@@ -19,7 +19,7 @@ ingredients:
 - 170 gramas de chocolate amargo picado ou em gotas
 
 steps:  
-- Pré aqueça o forno a 200 graus.  
+- Preaqueça o forno a 200 graus.  
 - Misture a linhaça com a água e deixe repousar por 15 minutos. Vai virar uma geleca estranha, tipo amoeba, mas é isso mesmo. Esse é o literal "você pode substituir o ovo por linhaça".  
 - Em uma vasilha, coloque a farinha, cacau, açúcar, amoeba de linhaça, óleo, leite vegetal e o vinagre. Misture tudo muito bem.  
 - Adicione o fermento e mexa novamente.  

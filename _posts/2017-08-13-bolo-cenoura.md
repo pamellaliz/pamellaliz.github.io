@@ -15,9 +15,9 @@ ingredients:
 
 
 steps:  
-- Pré-aqueça o forno a 180 graus. Unte e enfarinhe uma forma grande. A receita é grande. Pode ser forma retangular ou com furo no meio (que assa mais rápido e de forma mais uniforme)  
+- Preaqueça o forno a 180 graus. Unte e enfarinhe uma forma grande. A receita é grande. Pode ser forma retangular ou com furo no meio (que assa mais rápido e de forma mais uniforme)  
 - Bata no liquidificador os quatro primeiros ingredientes. Vou repetir, cenoura, óleo, ovos e açúcar.  
-- Enquanto você esquece a mistura no liquidificador por um tempo, coloque a farinha e o fermento em um bowl (nome chique da tigela).  
+- Enquanto você esquece a mistura no liquidificador por um tempo, coloque a farinha e o fermento em um bowl.  
 - Quando você lembrar que o liquidificador tá lá funcionando ainda (o que é meio impossível de esquecer), coloque toda a mistura no bowl com farinha e mexa pra incorporar a mistura.  
 - Coloque a massa na forma e leve ao forno por aproximadamente 50 minutos.
 ---
