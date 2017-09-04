@@ -12,7 +12,7 @@ ingredients:
 - 2 colheres de sopa de queijo ralado  
 
 steps:
-- Pré aqueça o forno a 180 graus.  
+- Preaqueça o forno a 180 graus.  
 - Coloque todos os ingredientes em um bowl e misture bem.  
 - Coloque a mistura em forminhas de cupcake, até 2/3 da capacidade.
 - Leve ao forno por aproximadamente 20 minutos, ou até que fiquem dourados.
