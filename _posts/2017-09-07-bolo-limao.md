@@ -3,6 +3,7 @@ layout: recipe
 tittle: Bolo de Limão e Frutas Vermelhas
 coverImage: bolo-limao.jpg
 author: Pamella Amorim Liz
+published: true
 
 ingredients:
 - 250 gramas de manteiga sem sal, em temperatura ambiente
