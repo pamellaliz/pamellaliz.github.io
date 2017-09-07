@@ -11,7 +11,7 @@ ingredients:
 - Uma pitada de sal
 - 4 ovos
 - 2 xícaras de farinha de trigo
-- 80 ml de sumo de limão siciliano (aproximadamente 3 limões)
+- 80 ml de suco de limão siciliano (aproximadamente 3 limões)
 - 1 colher de sopa de fermento químico
 - 1 xícara de frutas vermelhas (eu uso framboesas e mirtilos). Se usar congelado, não precisa descongelar antes de usar.
 
