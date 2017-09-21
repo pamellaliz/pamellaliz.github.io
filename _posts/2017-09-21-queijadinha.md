@@ -1,9 +1,9 @@
 ---
 layout: recipe
-tittle: Queijadinha e memórias do sítio  
+tittle: Queijadinha e Memórias do Sítio  
 coverImage: queijadinha.jpg  
 author: Pamella Amorim Liz
-published: true
+published: true 
 
 ingredients:  
 - 1 lata de leite condensado  
@@ -19,7 +19,7 @@ steps:
 
 ---
 
-Em 2011 começamos uma tradição entre os amigos da faculdade de História: pelo menos uma vez ao ano iríamos para o sítio dos pais da Polly nos reunir. Nos encontravávamos no sábado de manhã cedo e íamos embora domingo a noite. Era um final de semana regado a muita (MUITA) comida e um domingo de ressaca.
+Em 2011 começamos uma tradição entre os amigos da faculdade de História: pelo menos uma vez ao ano iríamos para o sítio dos pais da Polly nos reunir. Nos encontravávamos no sábado de manhã cedo e íamos embora domingo a noite. Era um final de semana regado a muita (MUITA) comida com um domingo de ressaca.
 
 Começamos a tradição acampando no quintal, porque a casa ainda não havia sido reformada e podia cair o teto na cabeça. Terminamos em 2015, com cada um indo morar em um lugar diferente do país e com o fígado reclamando da idade, dizendo que não éramos mais xovens.
 
