@@ -9,12 +9,12 @@ ingredients:
 - 1 ovo  
 - 60ml de leite (eu uso de amêndoas)  
 - 115g de manteiga derretida  
-- ½ xícara de açúcar  
-- ⅓ xícara de açúcar mascavo  
-- ½ colher de chá de essência de baunilha  
+- 1/2 xícara de açúcar  
+- 1/3 xícara de açúcar mascavo  
+- 1/2 colher de chá de essência de baunilha  
 - 4 bananas maduras (2 amassadas, 2 picadas)  
 - 1 pitada de sal  
-- 1 ⅓ xícara de farinha de trigo  
+- 1 e 1/3 xícara de farinha de trigo  
 - 2 colheres de chá de fermento químico  
 - 50g de nozes picadas
 - 150g de chocolate 70% picado (opcional)
