@@ -2,7 +2,6 @@
 layout: recipe
 tittle: BANANA BREAD (OU A 1ª RECEITA QUE EU PEGUEI DE UM SITE HOLANDÊS)
 coverImage: banana-bread.jpg
-myDate: June 05, 2017
 author: Pamella Amorim Liz
 published: true
 
