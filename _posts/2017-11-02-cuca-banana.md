@@ -3,7 +3,7 @@ layout: recipe
 tittle: Cuca de Banana da mamãe (e da tia, da vó..)
 coverImage: cuca-banana.jpg
 author: Pamella Amorim Liz
-published: true
+
 
 ingredients:
 - 3 xícaras de chá de farinha de trigo
