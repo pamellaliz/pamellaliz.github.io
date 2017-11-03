@@ -3,7 +3,7 @@ layout: recipe
 tittle: Cuca de Banana da mamãe (e da tia, da vó..)
 coverImage: cuca-banana.jpg
 author: Pamella Amorim Liz
-published: false
+published: true
 
 ingredients:
 - 3 xícaras de chá de farinha de trigo
@@ -13,6 +13,7 @@ ingredients:
 - 3 ovos
 - 1 colher de sopa fermento em pó
 - 8 bananas cortadas no no sentido do comprimento (ou em rodelas, quem vai comer é você!)
+*.*.*.*
 - 2 xícaras de chá de farinha de trigo
 - 2 colheres de sopa (cheias) de açúcar
 - 2 colheres de sopa de manteiga amolecida
@@ -27,7 +28,7 @@ steps:
 - Acrescente alternadamente a farinha e o leite, e vá misturando, mas sem bater demais para não formar glúten e não pesar a massa.
 - Por último, misture o fermento.
 - Coloque a massa na forma e por cima distribua as bananas. Reserve.
-
+*.*.*.*
 - Coloque todos os ingredientes em uma tigela e vá adicionando o óleo as poucos, misturando com a ponta dos dedos mesmo, até formar uma farofa.
 - Coloque por cima das bananas e leve tudo pra assar por aproximadamente 50 minutos ou até dourar (o teste de enfiar o palito no bolo e ver se ele sai sequinho também ajuda!).
 
