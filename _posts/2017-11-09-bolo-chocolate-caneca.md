@@ -15,7 +15,7 @@ ingredients:
 - 1/2 colher de chá de fermento químico
 
 steps:
-- Em uma tigelinha junte o ovo, leite e manteiga deretida. Bata bem com um fouet ou garfo.
+- Em uma tigelinha junte o ovo, leite e manteiga derretida. Bata bem com um fouet ou garfo.
 - Junte o açúcar, o chocolate derretido e misture bem.
 - Coloque a farinha e o fermento e misture para incorporar.
 - Divida a massa em canecas grandes ou xícaras menores, mas nunca deixe passar de 2/3 da capacidade! Leve ao microondas por 3 minutos na potência alta.
